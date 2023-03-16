@@ -86,8 +86,6 @@ dataLayer.push({ ecommerce: null });
 dataLayer.push({
   event: "add_to_wishlist", 
   ecommerce: {
-  currency: "USD",
-  value: 7.77,
   items: 
     {
       item_id: "SKU_12345",
@@ -96,6 +94,8 @@ dataLayer.push({
       coupon: "SUMMER_FUN",
       discount: 2.22,
       index: 0,
+	currency: "USD",
+      value: 7.77,
       item_brand: "Google",
       item_category: "Apparel",
       item_category2: "Adult",
