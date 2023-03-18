@@ -851,12 +851,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 	
-	<button id = "add-to-cart">Add-To-Cart</button>
-  <script>
-  dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
-  dataLayer.push({
-  event: "add_to_wishlist", 
-  ecommerce: {
+</body>
+<body>
+<div>This is where the add to cart would go</div>
+    <button id="add_to_cart">Add to Cart</button>
+         <script>
+         dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+        dataLayer.push({
+	    event: "add_to_wishlist", 
+	ecommerce: {
   currency: "USD",
   value: 7.77,
   items: 
@@ -881,8 +884,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       quantity: 1
     }
 	}
-});</script>
-	
+  });
+	</script>
 </body>
+
 
 </html>
