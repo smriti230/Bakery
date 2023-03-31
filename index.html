@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+	<script>
+  var script = document.createElement('script');
+  script.defer = true;
+  script.dataset.domain = "Bakery";
+  script.dataset.api = "https://plausible.io/api/event";
+  script.src = "https://plausible.io/js/script.js";
+  document.getElementsByTagName('head')[0].appendChild(script);
+</script>
 	<script defer data-domain="smriti230.github.io/bakery" src="https://plausible.io/js/script.js"></script>
 
 	<!-- Google Tag Manager -->
